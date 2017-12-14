@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<link href="http://localhost:8080/" rel="selenium.base"/>
+<title>Selenium test for AlluserController</title>
+</head>
+<body>
+    <table border="1" cellpadding="1" cellspacing="1">
+        <thead>
+            <tr>
+                <td colspan="3" rowspan="1">Selenium test for AlluserController</td>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+                    <td>open</td>
+                    <td>http://localhost:8080/user/allusers?form&amp;lang=en_US</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_loginId_id</td>
+                    <td>someLoginId1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_passwordHash_id</td>
+                    <td>somePasswordHash1</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_email_id</td>
+                    <td>some@email.com</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_isActive_id</td>
+                    <td>false</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_lastUpdateDate_id</td>
+                    <td>Jul 24, 2017 1:23:31 PM</td>
+                </tr>
+                <tr>
+                    <td>type</td>
+                    <td>_appRole_id</td>
+                    <td>someAppRole1</td>
+                </tr>
+                <tr>
+                    <td>clickAndWait</td>
+                    <td>//input[@id = 'proceed']</td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_all_management_user_model_Alluser_loginId_loginId_id</td>
+                    <td>someLoginId1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_all_management_user_model_Alluser_passwordHash_passwordHash_id</td>
+                    <td>somePasswordHash1</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_all_management_user_model_Alluser_email_email_id</td>
+                    <td>some@email.com</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_all_management_user_model_Alluser_isActive_isActive_id</td>
+                    <td>false</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_all_management_user_model_Alluser_lastUpdateDate_lastUpdateDate_id</td>
+                    <td>Jul 24, 2017 1:23:31 PM</td>
+                </tr>
+                <tr>
+                    <td>verifyText</td>
+                    <td>_s_com_all_management_user_model_Alluser_appRole_appRole_id</td>
+                    <td>someAppRole1</td>
+                </tr>
+            </tbody>
+    </table>
+</body>
+</html>

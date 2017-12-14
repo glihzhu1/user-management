@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_all_management_user_model_Alluser" items="${allusers}" z="Y6e0aT+/+dC5HT38kUA9Mf9gEkM=">
+        <table:table data="${allusers}" id="l_com_all_management_user_model_Alluser" path="/allusers" z="jwXgUl1KR8y7JoC9lKql86erwZ8=">
+            <table:column id="c_com_all_management_user_model_Alluser_loginId" property="loginId" z="QqZWfn/tQ9UB9LcfHvieZI8AOXE="/>
+            <table:column id="c_com_all_management_user_model_Alluser_email" property="email" z="OcAv7REqbl0b+I7pYGikW/IKlL8="/>
+            <!-- 
+            <table:column calendar="true" dateTimePattern="${alluser_lastupdatedate_date_format}" id="c_com_all_management_user_model_Alluser_lastUpdateDate" property="lastUpdateDate" z="aiTsmGhG6vqL7GrBJpSWvUrj4t0="/>
+            -->
+            <table:column id="c_com_all_management_user_model_Alluser_appRole" property="appRole" z="j9Wvo+5dleWwSCA0PnO6JkYnjPg="/>
+            <table:column id="c_com_all_management_user_model_Alluser_userActive" property="userActive" z="9mVwTnN5rOyoi9fBY/CXNcNmcSE="/>
+        </table:table>
+    </page:list>
+</div>

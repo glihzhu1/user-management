@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_all_management_user_model_Alluser" object="${alluser}" path="/allusers" z="p0IkFi9H2NJHXslDh1sLZ6vwKcI=">
+        <field:display field="loginId" id="s_com_all_management_user_model_Alluser_loginId" object="${alluser}" z="1tcQqmRsiK8L+Pa/LpQ4LaNOK20="/>
+        <field:display field="passwordHash" id="s_com_all_management_user_model_Alluser_passwordHash" object="${alluser}" z="t/P9RQxK+m+pzLTs8bsfVqzQ20s="/>
+        <field:display field="email" id="s_com_all_management_user_model_Alluser_email" object="${alluser}" z="xLdjQD1UN2T0mSOHOG/FJzv5CuA="/>
+        <field:display calendar="true" dateTimePattern="${alluser_lastupdatedate_date_format}" field="lastUpdateDate" id="s_com_all_management_user_model_Alluser_lastUpdateDate" object="${alluser}" z="XQPdAhleU8EFPuIJheAsKcnmFUQ="/>
+        <field:display field="appRole" id="s_com_all_management_user_model_Alluser_appRole" object="${alluser}" z="MJd4ffc0/MvptQgEkt2Lh6LO3n8="/>
+        <field:display field="userActive" id="s_com_all_management_user_model_Alluser_userActive" object="${alluser}" z="RRCXfEt6uzxhl24ej0DorERscRI="/>
+    </page:show>
+</div>
